@@ -1,0 +1,414 @@
+/* Default Start */
+.App {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+body {
+  overflow-x: hidden;
+}
+.Hire-Head,
+.services,
+.doorstep-head,
+.seen-on {
+  margin-top: 3%;
+}
+/* Default End */
+
+/* Navigation Start */
+.Navigationbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1000000000000000000;
+}
+.navigation {
+  background-color: #ffffff;
+}
+.navbar a img {
+  width: 50%;
+}
+.navbar {
+  border-bottom: 1px solid #ccc;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-nav .nav-item .dropdown button {
+  font-size: 20px;
+  padding: 0 22px;
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-nav .nav-item .dropdown button:hover {
+  color: #184678;
+  transition: linear 0.2s;
+}
+.navbar-nav .nav-item .dropdown-toggle::after {
+  position: relative;
+  top: 5px;
+}
+.navbar-nav .nav-item .dropdown-item {
+  display: flex;
+}
+.navbar-nav .nav-item .dropdown-menu {
+  --bs-dropdown-min-width: 65rem;
+  position: absolute;
+  left: -350%;
+}
+.collapse ul {
+  display: flex;
+  align-items: center;
+}
+.black-button button {
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  background-color: #184678;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 2px solid #00000000;
+}
+
+.black-button button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  color: #184678;
+  transition: linear 0.2s;
+  border: 2px solid #184678;
+}
+.btn-secondary,
+.btn-secondary:hover {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-secondary.focus,
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+}
+
+/* Navigation End */
+
+/* HomePage Start */
+/* Hire-Head */
+
+/* .Hire-Head .container,
+.Hire-Head .col-lg-6 {
+  padding: 0;
+} */
+.Hire-content h4 {
+  font-size: 3em;
+  font-weight: 800;
+  padding-bottom: 26px;
+  font-size: 50px;
+  background: linear-gradient(to right, rgb(109, 65, 197), rgb(188, 112, 213));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.Hire-Head .Hire-content h6 {
+  font-size: 18px;
+  color: rgb(109, 65, 197);
+}
+.Hire-Head .Hire-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 15px 0 0 0;
+}
+.Hire-Head .Hire-content h5 {
+  margin-top: 44px;
+  font-size: 20px;
+  color: #ccc;
+}
+.driver-app {
+  margin: 47px 0 0 4px;
+}
+.driver-app a {
+}
+.driver-app a button {
+  padding: 18px 80px;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  color: #fff;
+}
+.driver-app a .app {
+  padding: 18px 30px;
+  font-size: 22px;
+  font-weight: 600;
+  border: 2px solid rgb(109, 65, 197);
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+  margin: 0 0 0 26px;
+  color: #000;
+}
+/* Our Services */
+.services h2 {
+  text-align: center;
+  font-size: 34px;
+}
+.services a {
+  text-decoration: none;
+}
+.services .services-card h3 {
+  margin-top: 40px;
+  font-size: 24px;
+}
+.services .services-card {
+  text-align: center;
+  color: #000;
+  margin-top: 34%;
+}
+.services .services-card p {
+  margin: 30px 12px 0 12px;
+  color: #b1a4a4;
+}
+.doorstep-col-row,
+.car-Maintanance,
+.insurence,
+.tiptopcoin {
+  display: flex;
+  align-items: center;
+}
+.doorstep p,
+.car-Maintanance p,
+.insurence p,
+.tiptopcoin p {
+  font-size: 16px;
+  padding: 36px 92px 0 0px;
+}
+.doorstep h2,
+.car-Maintanance h2,
+.insurence h2,
+.tiptopcoin h2 {
+  text-align: start;
+  font-size: 24px;
+}
+.doorstep a button,
+.car-Maintanance a button,
+.insurence a button,
+.tiptopcoin a button {
+  position: relative;
+  top: 30px;
+  padding: 10px 40px;
+  font-size: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  border: none;
+  color: #fff;
+}
+/* Seen on Start */
+.seen-on {
+  text-align: center;
+}
+/* Simply Car Owner Ship Start*/
+.car-owner-ship {
+  background-color: #f3f3f4;
+}
+.car-owner-ship .carownership p {
+  margin: 22px 0;
+  width: 80%;
+}
+.car-owner-ship .carownership h2 {
+  font-size: 24px;
+}
+.car-owner-ship .carownership {
+  display: flex;
+  align-items: center;
+}
+.car-owner-ship .carownership a {
+  padding-right: 18px;
+}
+.car-owner-ship .carownership a img {
+  width: 32%;
+}
+/* HomePage End */
+/* Footer Page Start */
+.Footer {
+  background-color: #09081a;
+  color: #fff;
+}
+.footer-head h2 {
+  font-size: 28px;
+}
+.footer-head p .fa-linkedin {
+  background-color: #fff;
+  color: #212529;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 20px;
+  position: relative;
+  bottom: 4px;
+}
+.footer-head p i {
+  font-size: 30px;
+  padding-right: 5px;
+}
+.footer-head {
+  padding: 3% 0;
+}
+.footer-head p a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-head h3 {
+  margin-top: 30%;
+}
+.term-condition p {
+  font-size: 15px;
+}
+.footer-app a img {
+  width: 35%;
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+/* Footer Page End */
+/* Fastag Page Start */
+.Fastag-head {
+  margin-left: 6%;
+  margin-top: 3%;
+}
+.fastag-recharge {
+  display: flex;
+  align-items: center;
+}
+.fastag-recharge h1 {
+  margin-top: 10px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.fastag-recharge h6 {
+  font-size: 18px;
+}
+.fastag-recharge p {
+  font-size: 20px;
+  padding: 8% 0;
+}
+.fastag-recharge a button {
+  padding: 16px 72px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  border: none;
+}
+.reacharge-on {
+  margin: 3%;
+  text-align: center;
+}
+.reacharge-on .card svg {
+  margin: 0 25%;
+}
+.reacharge-on .card p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.reacharge-on .card {
+  text-align: center;
+}
+.FASTag-Mandatory {
+  text-align: center;
+}
+.FASTag-Mandatory h1 {
+  font-weight: 700;
+}
+.FASTag-Mandatory .fasttag-content {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.FASTag-Mandatory .row {
+  margin-top: 5%;
+}
+.FASTag-Mandatory a button {
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  padding: 10px 15px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 3% 0;
+}
+.FASTag-Mandatory .fasttag-content p {
+}
+.FASTag-Mandatory .fasttag-content ul {
+  padding: 0;
+}
+.FASTag-Mandatory .fasttag-content ul li {
+  list-style: none;
+}
+.reviews {
+  margin-bottom: 3%;
+}
+.reviews .card {
+  padding: 30px;
+}
+.reviews .card img {
+  width: 15%;
+  margin-bottom: 10px;
+}
+/* Fastag Page End */
+
+/* Car Wash Page Start */
+.carwash-content h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 66px;
+}
+.carwash-content p {
+  padding: 5% 0;
+}
+.carwash-content {
+  display: flex;
+  align-items: center;
+}
+.carwash-content div {
+  padding: 0 0 0 13%;
+}
+/* Car Wash Page End */
