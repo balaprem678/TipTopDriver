@@ -13,6 +13,11 @@ import Hiredrivers from "./components/Hiredrivers";
 import Fastag from "./components/Fastag";
 import Carwashpackage from "./components/Carwashpackage";
 import Carwash from "./components/Carwash";
+import Tiptopdrivercoin from "./components/Tiptopdrivercoin";
+import Carservicing from "./components/Carservicing";
+import Roadsideassistance from "./components/Roadsideassistance";
+import Carownership from "./components/Carownership";
+import Joinasdriverpartner from "./components/Joinasdriverpartner";
 
 export default function Routeslist() {
 
@@ -23,10 +28,17 @@ export default function Routeslist() {
           <Route path="/Navigation" element={<Navigation />} />
           <Route path="/Footer" element={<Footer />} />
           <Route path="/" element={<Home />} />
+          {/* SERVICES */}
           <Route path="/Hiredrivers" element={<Hiredrivers />} />
           <Route path="/Fastag" element={<Fastag />} />
           <Route path="/Carwashpackage" element={<Carwashpackage />} />
+          <Route path="/Carownership" element={<Carownership />} />
           <Route path="/Carwash" element={<Carwash/>} />
+          <Route path="/Tiptopdrivercoin" element={<Tiptopdrivercoin/>} />
+          <Route path="/Carservicing" element={<Carservicing/>} />
+          <Route path="/Roadsideassistance" element={<Roadsideassistance/>} />
+          {/* Business */}
+          <Route path="/Joinasdriverpartner" element={<Joinasdriverpartner/>} />
         </Routes>
       </HashRouter>
     </div>

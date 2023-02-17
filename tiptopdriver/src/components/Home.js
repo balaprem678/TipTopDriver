@@ -2,7 +2,6 @@ import React from 'react';
 import '../App';
 import Doorstep from "../Images/Doorstep_Car_Cleaning_Cvd5H4EbR.webp"
 import Maintanance from "../Images/Car_Maintanance_IMage_-qkR6Imkz.webp"
-import Carownership from "../Images/Simplify_Car_Image__1__8QISsCRAL_.webp"
 import Insurance from "../Images/Insurance_EWLEjlfpD.webp"
 import tiptopcoin from "../Images/coin-section_1_RQzc_UA31.webp"
 import client1 from "../Images/client logo//client1.webp"
@@ -14,13 +13,9 @@ import client6 from "../Images/client logo//client6.webp"
 import OwlCarousel from 'react-owl-carousel';
 import "owl.carousel/dist/assets/owl.carousel.min.css"
 import "owl.carousel/dist/assets/owl.theme.default.min.css";
-import appstore from "../Images/appstore.png"
-import Googleplay from "../Images/googleplay.png"
 import Navigation from './Navigation';
 import Footer from './Footer';
-
-
-
+import Carownership from "./Carownership";
 
 function Home() {
   return (
@@ -32,10 +27,10 @@ function Home() {
               <div className='row'>
                 <div className='col-lg-6 col-md-6 col-sm-12'>
                   <div className='Hire-content'>
-                    <h4>TipTop Drivers</h4>
-                    <h6>SIMPLIFY CAR OWNERSHIP</h6>
-                    <h1>Hire professional drivers, and all car services at your fingertips.</h1>
-                    <h5>Get rewarded for owning a car!</h5>
+                    <h4 className='Hire-content-head1'>TipTop Drivers</h4>
+                    <h6 className='Hire-content-head2'>SIMPLIFY CAR OWNERSHIP</h6>
+                    <h1 className='Hire-content-head3'>Hire professional drivers, and all car services at your fingertips.</h1>
+                    <h5 className='Hire-content-head4'>Get rewarded for owning a car!</h5>
                     <div className='driver-app'>
                       <a href=''><button>Book Driver</button></a>
                       <a href=''><button className='app'>Download App</button></a>
@@ -243,24 +238,7 @@ function Home() {
               </OwlCarousel>
             </div>
           </div>
-          {/* Simply car owner Ship */}
-          <div className='car-owner-ship'>
-            <div className='container-fluid'>
-              <div className='row'>
-                <div className='col-lg-7 col-md-6 col-sm-12'>
-                  <img src={Carownership}/>
-                </div>
-                <div className='col-lg-5 col-md-6 col-sm-12 carownership'>
-                  <div>
-                    <h2>Simplify Car Ownership</h2>
-                    <p>Download the DriveU app on iOS / Android phones for a seamless car ownership experience. Track all your bookings and get rewarded for every transaction.</p>
-                    <a href=''><img src={appstore}/></a>
-                    <a href=''><img src={Googleplay}/></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Carownership />
           <Footer/>
         </div>
   );

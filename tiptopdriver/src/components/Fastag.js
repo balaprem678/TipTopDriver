@@ -3,16 +3,11 @@ import "../App";
 import Maskgroup from "../Images/Fastagpage/Mask_group_bwqI7Ds-d.webp"
 import Footer from "./Footer";
 import Navigation from "./Navigation";
-// Fastag
-// import Maskgroup from "../Images/Fastagpage/Mask_group_bwqI7Ds-d.webp"
 import RechargeFASTag from "../Images/Fastagpage/Recharge-FASTag-on-the-go__gYNgj1U72.webp"
 import AvoidDouble from "../Images/Fastagpage/Avoid-Double-Charges_nIrGo4uer.webp"
 import image227 from "../Images/Fastagpage/image_227_oDTXgVZw_.webp"
-import Carownership from "../Images/Simplify_Car_Image__1__8QISsCRAL_.webp"
+import Carownership from "./Carownership";
 import review from "../Images/Fastagpage/review.png"
-import appstore from "../Images/appstore.png"
-import Googleplay from "../Images/googleplay.png"
-
 
 export default function Fastag() {
   return (
@@ -24,9 +19,9 @@ export default function Fastag() {
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-12 fastag-recharge">
                 <div>
-                  <h6>FASTag RECHARGE</h6>
-                  <h1>Zip through the toll gates!</h1>
-                  <p>For long journeys and peace of mind</p>
+                  <h6 className="Hire-content-head2">FASTag RECHARGE</h6>
+                  <h1 className="Hire-content-head3">Zip through the toll gates!</h1>
+                  <p className="Hire-content-head4">For long journeys and peace of mind</p>
                   <a href="">
                     <button>
                       Recharge Now
@@ -40,10 +35,10 @@ export default function Fastag() {
             </div>
           </div>
         </div>
-        <div className='reacharge-on'>
+        <div className='reacharge-on Premium-Materials-head'>
           <div className='container'>
             <h2>Recharge on the go!</h2>
-            <p>Download the DriveU app and experience seamless FASTag recharge and get<br /> rewarded too.</p>
+            <p className="svg-card-para">Download the DriveU app and experience seamless FASTag recharge and get<br /> rewarded too.</p>
             <div className='row'>
               <div className='col-lg-3'>
                 <div className='card'>
@@ -79,13 +74,13 @@ export default function Fastag() {
         <div className='FASTag-Mandatory'>
           <div className='container'>
             <h1>FASTag is Mandatory</h1>
-            <p>Indian government has mandated that all four-wheeled vehicles have a<br /> FASTag affixed to their windshields effective from February 16, 2021.
+            <p className="svg-card-para">Indian government has mandated that all four-wheeled vehicles have a<br /> FASTag affixed to their windshields effective from February 16, 2021.
             </p>
             <div className='row'>
               <div className='col-lg-6 col-md-6 col-sm-12 fasttag-content'>
                 <div>
                   <h1>Recharge FASTag on the go!</h1>
-                  <p>Imagine not being worried of the FASTag balance or getting blacklisted on your long trips while you zip past toll-gates. Your trips, your way! FASTag is mandatory.</p>
+                  <p className="svg-card-para">Imagine not being worried of the FASTag balance or getting blacklisted on your long trips while you zip past toll-gates. Your trips, your way! FASTag is mandatory.</p>
                   <ul>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i> Recharge on the go in seconds</li>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i> All major bank FASTags are supported</li>
@@ -104,7 +99,7 @@ export default function Fastag() {
               <div className='col-lg-6 col-md-6 col-sm-12 fasttag-content'>
                 <div>
                   <h1>Avoid Double Charges</h1>
-                  <p>You should be ready to pay twice the toll tax at each toll plaza you pass on the Indian National Highways if you possess a four-wheeler and don't yet have a FASTag.</p>
+                  <p className="svg-card-para">You should be ready to pay twice the toll tax at each toll plaza you pass on the Indian National Highways if you possess a four-wheeler and don't yet have a FASTag.</p>
                   <ul>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i> Avoid FASTag blacklisting</li>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i> No double charges</li>
@@ -117,7 +112,7 @@ export default function Fastag() {
               <div className='col-lg-6 col-md-6 col-sm-12 fasttag-content'>
                 <div>
                   <h1>How it works?</h1>
-                  <p>FASTag is mandatory encourage digital fee payment, shorten wait times, reduced fuel usage, and provide a smooth transit across major highways.</p>
+                  <p className="svg-card-para">FASTag is mandatory encourage digital fee payment, shorten wait times, reduced fuel usage, and provide a smooth transit across major highways.</p>
                   <ul>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i> AMaintain sufficient balance</li>
                     <li><i class="fa-sharp fa-regular fa-circle-check"></i>Anywhere, anytime recharge</li>
@@ -139,47 +134,30 @@ export default function Fastag() {
               <div className='col-lg-4 col-md-4 col-sm-12'>
                 <div className='card'>
                   <img src={review} />
-                  <p>DriveU app saved my FASTag from getting blacklisted, I had totally forgotten to recharge it. On my trip, I used the app to recharge seamlessly and also earned cashback for this.</p>
-                  <p>Suryanarayan /<span>FASTag Recharge</span></p>
+                  <p className="svg-card-para">DriveU app saved my FASTag from getting blacklisted, I had totally forgotten to recharge it. On my trip, I used the app to recharge seamlessly and also earned cashback for this.</p>
+                  <p className="svg-card-para">Suryanarayan /<span>FASTag Recharge</span></p>
                 </div>
               </div>
               <div className='col-lg-4 col-md-4 col-sm-12'>
                 <div className='card'>
                   <img src={review} />
-                  <p>DriveU’s weekend RSA plans are great. I was on my weekend trip to Pune when my vehicle broke down on the highway and called in for help, service guys were arranged swiftly.</p>
-                  <p>Abhishek / <span>Roadside Assistance</span></p>
+                  <p className="svg-card-para">DriveU’s weekend RSA plans are great. I was on my weekend trip to Pune when my vehicle broke down on the highway and called in for help, service guys were arranged swiftly.</p>
+                  <p className="svg-card-para">Abhishek / <span>Roadside Assistance</span></p>
                 </div>
               </div>
               <div className='col-lg-4 col-md-4 col-sm-12'>
                 <div className='card'>
                   <img src={review} />
-                  <p>I found this amazing renewal offer on DriveU where I was able to save a good amount of money. The app experience and the flow was very smooth. Recommended.
+                  <p className="svg-card-para">I found this amazing renewal offer on DriveU where I was able to save a good amount of money. The app experience and the flow was very smooth. Recommended.
                   </p>
-                  <p>Partha/ <span>Insurance Renewal</span></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Simply car owner Ship */}
-        <div className='car-owner-ship'>
-          <div className='container-fluid'>
-            <div className='row'>
-              <div className='col-lg-7 col-md-6 col-sm-12'>
-                <img src={Carownership} />
-              </div>
-              <div className='col-lg-5 col-md-6 col-sm-12 carownership'>
-                <div>
-                  <h2>Simplify Car Ownership</h2>
-                  <p>Download the DriveU app on iOS / Android phones for a seamless car ownership experience. Track all your bookings and get rewarded for every transaction.</p>
-                  <a href=''><img src={appstore} /></a>
-                  <a href=''><img src={Googleplay} /></a>
+                  <p className="svg-card-para">Partha/ <span>Insurance Renewal</span></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Carownership />
       <Footer />
     </div>
   );
