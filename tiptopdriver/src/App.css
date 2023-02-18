@@ -583,7 +583,7 @@ button {
   border: 2px solid #ccc;
   border-radius: 3px;
 }
-.Joinasdriverpartner {
+.Joinasdriverpartner-head {
   margin: 5% 0;
 }
 .Joinasdriverpartner .business-phoneno a button {
@@ -596,6 +596,11 @@ button {
   border: none;
   color: #fff;
 }
+.Comfortable-Trusted-Customers .card p {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 600;
+}
 .Comfortable-Trusted-Customers .card {
   border: none;
   /* filter: drop-shadow(0 0 0.75rem crimson); */
@@ -604,6 +609,35 @@ button {
 .Comfortable-Trusted-Customers img {
   width: 25%;
   margin: 0 0 0 65%;
+}
+.Become-a-Driver-Partner {
+  text-align: center;
+  margin-top: 3%;
+}
+.Become-a-Driver-Partner .item .image-wrap {
+  padding: 4%;
+  height: 50vh;
+}
+.Become-a-Driver-Partner .item .image-wrap h2 {
+  font-size: 24px;
+}
+.Become-a-Driver-Partner .item .image-wrap p {
+  color: rgba(9, 8, 26, 0.3);
+  font-weight: 700;
+  text-align: justify;
+}
+.owl-carousel.owl-drag .owl-item {
+  box-shadow: 0px 0px 50px 2px #ccc;
+}
+.Happy-drivers-happy-riders {
+  text-align: center;
+  margin-top: 3%;
+}
+.Join-as-a-Driver-Partner {
+  width: 100%;
+  margin: 5% auto;
+  text-align: justify;
+  padding: 0px 35%;
 }
 /* Join As Business Page End*/
 /* Book Driver Page Start */
@@ -1013,12 +1047,6 @@ input[type="text"] {
   outline: none;
   padding: 10px;
 }
-.location {
-  font-size: 14px !important;
-  border-radius: 10px !important;
-  border: 0.2px solid #888;
-  font-family: Circular-Std-Book;
-}
 .empty_input_div {
   height: 1rem;
   width: 1rem;
@@ -1031,18 +1059,9 @@ input[type="text"] {
 .secondInput {
   margin-bottom: 0.5rem;
 }
-.location {
-  font-size: 14px !important;
-  border-radius: 10px !important;
-  border: 0.2px solid #888;
-  font-family: Circular-Std-Book;
-}
 .second_Input_Tag_Div {
   display: flex;
   flex-direction: row;
-}
-input[type="text"] {
-  -moz-appearance: textfield;
 }
 .verify-otp,
 input[type="text"] {
@@ -1056,12 +1075,7 @@ input[type="text"] {
   outline: none;
   padding: 10px;
 }
-.location {
-  font-size: 14px !important;
-  border-radius: 10px !important;
-  border: 0.2px solid #888;
-  font-family: Circular-Std-Book;
-}
+
 .empty_input_div {
   height: 1rem;
   width: 1rem;
