@@ -18,6 +18,7 @@ import Carservicing from "./components/Carservicing";
 import Roadsideassistance from "./components/Roadsideassistance";
 import Carownership from "./components/Carownership";
 import Joinasdriverpartner from "./components/Joinasdriverpartner";
+import HireDriversforB2B from "./components/HireDriversforB2B";
 
 export default function Routeslist() {
 
@@ -39,6 +40,8 @@ export default function Routeslist() {
           <Route path="/Roadsideassistance" element={<Roadsideassistance/>} />
           {/* Business */}
           <Route path="/Joinasdriverpartner" element={<Joinasdriverpartner/>} />
+          <Route path="/HireDriversforB2B" element={<HireDriversforB2B/>} />
+
         </Routes>
       </HashRouter>
     </div>

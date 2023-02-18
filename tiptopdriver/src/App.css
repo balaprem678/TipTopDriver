@@ -84,6 +84,17 @@ button {
   --bs-dropdown-min-width: 65rem;
   position: absolute;
   left: -350%;
+  top: 75px;
+  border: none;
+  box-shadow: 0px 0px 100px 1px #ccc;
+}
+.navbar-nav .nav-item .dropsdowns-menus {
+  --bs-dropdown-min-width: 0;
+  position: absolute;
+  left: 0;
+  top: 75px;
+  border: none;
+  box-shadow: 0px 0px 100px 1px #ccc;
 }
 .collapse ul {
   display: flex;
@@ -1087,3 +1098,66 @@ input[type="text"] {
 }
 
 /* Book Driver Page End */
+/* Hire Drivers for B2B Page Start */
+.HireDriversforB2B-Head {
+  background-image: url("./Images/Hire Drivers for B2B/img-bg1.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  text-align: center;
+}
+.HireDriversforB2B-Head .REQUEST-A-DEMO .card {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3%;
+  border: none;
+  box-shadow: 0px 0px 20px 0px #ccc;
+}
+.HireDriversforB2B-Head .REQUEST-A-DEMO .card .head img {
+}
+.HireDriversforB2B-center-content {
+  padding: 8% 0;
+}
+.HireDriversforB2B-center-content h6 {
+  font-size: 22px;
+}
+.HireDriversforB2B-center-content h2 {
+  font-size: 55px;
+}
+.REQUEST-A-DEMO .card input[type="text"] {
+  color: #333;
+  transition: all 0.5s ease-in;
+  outline: none;
+  padding: 5px 15px;
+  margin: 5px 0;
+  width: 80%;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+}
+.REQUEST-A-DEMO .card .head h3 {
+  background: linear-gradient(to right, rgb(109, 65, 197), rgb(188, 112, 213));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+.form-btn {
+  background-image: linear-gradient(
+    to right,
+    rgb(109, 65, 197),
+    rgb(188, 112, 213)
+  );
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.client-logo-head .row img {
+  box-shadow: 0px 0px 30px 0px #ccc;
+  margin: 10px 0;
+}
+.client-logo-head .row {
+  margin: 50px 75px;
+}
+/* Hire Drivers for B2B Page End */
